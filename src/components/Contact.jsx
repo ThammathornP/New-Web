@@ -8,7 +8,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { ig, linkedin } from "../assets/index";
+import { ig, linkedin, jobit } from "../assets/index";
 
 const Contact = () => {
 
@@ -22,26 +22,48 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
-        <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={ig} alt='Instagram' className='rounded-full object-contain' />
-        </Link>
-        <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={linkedin} alt='LinkedIN' className='rounded-full object-contain' />
-        </Link>
+        <div className='flex flex-col gap-3'>
+          <div className='relative'>
+            <img
+              src={jobit}
+              alt='project_image'
+              className='w-full h-full object-cover rounded-2xl'
+            />
+
+            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={ig}
+                  alt='source code'
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            </div>
+          </div>
+          <div className='relative'>
+            <img
+              src={jobit}
+              alt='project_image'
+              className='w-full h-full object-cover rounded-2xl'
+            />
+
+            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              >
+                <img
+                  src={linkedin}
+                  alt='source code'
+                  className='w-1/2 h-1/2 object-contain'
+                />
+              </div>
+            </div>
+          </div>
+        </div>
         
       </motion.div>
 
