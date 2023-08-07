@@ -22,6 +22,10 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
+        <div>
+          <p className={styles.sectionSubText}>Contact</p>
+          <h2 className={styles.sectionHeadText}>Get in Touch!</h2>
+        </div>
         <div className='flex flex-col gap-3'>
           <div className='relative'>
             <img
@@ -31,16 +35,11 @@ const Contact = () => {
             />
 
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-              >
-                <img
-                  src={ig}
-                  alt='source code'
-                  className='w-1/2 h-1/2 object-contain'
-                />
-              </div>
+              <img
+                src={ig}
+                alt='source code'
+                className='w-10 h-10 object-contain'
+              />
             </div>
           </div>
           <div className='relative'>
@@ -51,14 +50,11 @@ const Contact = () => {
             />
 
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-              >
+              <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
                 <img
                   src={linkedin}
                   alt='source code'
-                  className='w-1/2 h-1/2 object-contain'
+                  className='w-10 h-10 object-contain'
                 />
               </div>
             </div>
