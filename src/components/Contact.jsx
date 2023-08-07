@@ -26,8 +26,8 @@ const Contact = () => {
           <p className={styles.sectionSubText}>Contact</p>
           <h2 className={styles.sectionHeadText}>Get in Touch!</h2>
         </div>
-        <div className='flex flex-col gap-3'>
-          <div className='relative'>
+        <div className='flex flex-col gap-4 pt-3'>
+          <div onClick={() => window.open("https://www.instagram.com/thammathornp/")} className='relative'>
             <img
               src={jobit}
               alt='project_image'
@@ -42,7 +42,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div className='relative'>
+          <div onClick={() => window.open("https://www.linkedin.com/in/tham-paweewan")} className='relative'>
             <img
               src={jobit}
               alt='project_image'
@@ -50,7 +50,9 @@ const Contact = () => {
             />
 
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-              <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+              <div 
+              className='absolute inset-0 flex justify-end m-3 card-img_hover'
+              >
                 <img
                   src={linkedin}
                   alt='source code'
