@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "homepage" : "https://thammathornp.github.io/React-Web"
+    "base" : "/React-Web/"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
