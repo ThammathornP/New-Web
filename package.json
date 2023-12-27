@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://thammathornp.github.io/React-Web",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "homepage": "https://thammathornp.github.io/React-Web",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
