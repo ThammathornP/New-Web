@@ -25,6 +25,7 @@ import {
     dga,
     eis,
     uoft,
+    dema,
     carrent,
     jobit,
     tripguide,
