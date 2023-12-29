@@ -33,6 +33,7 @@ import eis from "./company/eis3.png";
 import xhacks from "./company/xhacks.png";
 import uoft from "./company/uoft.png";
 import dga from "./company/dga.png";
+import dema from "./company/dema.png"
 
 
 import carrent from "./carrent.png";
@@ -73,6 +74,7 @@ export {
   dga,
   xhacks,
   uoft,
+  dema,
   carrent,
   jobit,
   tripguide,

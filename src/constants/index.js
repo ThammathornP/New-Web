@@ -124,21 +124,21 @@ import {
       iconBg: "#E6DEDD",
       date: "November 2015",
       points: [
-        "Developing and refining robot prototype for given competition task under the theme of robot explorers.",
-        "Collaborating with a team of 3 and a coach to program and debug robot to optimize task completion time.",
-        "Adapting to new additional tasks put in place on competition day under tight time limit.",
+        "Developed and refined robot prototypes for the given competition tasks under the theme of robot explorers.",
+        "Collaborated with a team of 3 and a coach to program and debug robot to optimize task completion time.",
+        "Adapted to new additional tasks put in place on competition day under tight time limit.",
       ],
     },
     {
-      title: "Gold Medalist",
+      title: "World Champion",
       company_name: "World Robot Games",
       icon: wrg,
       iconBg: "#000000",
       date: "August 2016",
       points: [
-        "Developing and refining an Arduino based fire fighting robot to complete the task in place.",
-        "Collaborating with a teammate and a coach to fix bugs and optimize time taken to put out fires.",
-        "Adapting and optimizing robot runtime to hurdles on competition day under pressure.",
+        "Developedand refined an Arduino based fire fighting robot to complete the task in place.",
+        "Collaborated with a teammate and a coach to fix bugs and optimize time taken to put out fires.",
+        "Adapted and optimized robot runtime to hurdles under time constraint.",
       ],
     },
     {
@@ -151,7 +151,7 @@ import {
         "Ran a school club dedicated to programming with Python and Arduino languages.",
         "Hosted schoolwide Python discord bot creation competition.",
         "Created child friendly obstacle-avoiding alcohol dispenser robot for school classrooms.",
-        "Hosting programming workshops and providing constructive feedback to other student developers.",
+        "Hosted programming workshops and providing constructive feedback to other student developers.",
       ],
     },
     {
@@ -161,9 +161,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Jun 2021 - Aug 2021",
       points: [
-        "Employing Java and SQL to model, present, and analyze workflow and business data.",
-        "Utilizing Google Data Studio to present monthly reports monitoring large amounts of customer data.",
-        "Assisting in streamlining the backend DevOps process for security integration.",
+        "Employed Java and SQL to model, present, and analyze workflow and business data.",
+        "Utilized Google Data Studio to present monthly reports monitoring large amounts of customer data.",
+        "Assisted in streamlining the company's backend DevOps process for security integration.",
       ],
     },
     {
@@ -173,9 +173,9 @@ import {
       iconBg: "#000000",
       date: "August 2021",
       points: [
-        "Utilizing Angular and Firebase to create a web application for hosting online debate tournaments.",
-        "Creating landing page with user authentication, and added text and audio sharing functionalities.",
-        "Designing UX and UI elements as well as graphics for the website's pages.",
+        "Utilized Angular and Firebase to create a web application for hosting online debate tournaments.",
+        "Created landing page with user authentication, and added text and audio sharing functionalities.",
+        "Designed UX and UI elements as well as graphics for the website's pages.",
       ],
     },
     {
@@ -186,10 +186,22 @@ import {
       date: "September 2022 - Present",
       points: [
         "Pursuing a comprehensive education in Data Structures, Algorithms, and Machine Learning, amongst related fields.",
-        "Creating a Fintech Club to connect together like-minded students and host workshops and hackathons.",
-        "Taking part in computer science related clubs on campus through workshops and hackathons.",
+        "Creating a Fintech Club to connect together like-minded students and host workshops and case-competitions.",
+        "Taking part in computer science related clubs and initiatives on campus through workshops and hackathons.",
       ],
     },
+    {
+      title: "1st Place Team",
+      company_name: "Youth Entrepreneurship Case Competition",
+      icon: dema,
+      iconBg: "#E6DEDD",
+      date: "April 2023",
+      points: [
+        "Developed and presented a thorough business plan that promoted technological cooperation and set the foundation for global expansion.",
+        "Implemented timelines for effective ERP integration between different company systems, promoting flexibility and conserving company structures.",
+        "Drafted optimal company acquisition plans and the strategies to be taken to ensure a smooth merger style acquisition.",
+      ],
+    }
   ];
   
   const projects = [
