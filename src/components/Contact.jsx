@@ -8,7 +8,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { ig, linkedin, jobit } from "../assets/index";
+import { gmail, linkedin, jobit } from "../assets/index";
 
 const Contact = () => {
 
@@ -36,7 +36,7 @@ const Contact = () => {
 
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
               <img
-                src={ig}
+                src={gmail}
                 alt='source code'
                 className='w-10 h-10 object-contain'
               />

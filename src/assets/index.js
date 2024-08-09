@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import ig from "./instagram.webp";
+import gmail from "./gmail.png";
 import linkedin from "./linkedin.png";
 
 import css from "./tech/css.png";
@@ -40,6 +41,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  gmail,
   linkedin,
   ig,
   datastudio,
