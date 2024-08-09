@@ -27,7 +27,7 @@ const Contact = () => {
           <h2 className={styles.sectionHeadText}>Get in Touch!</h2>
         </div>
         <div className='flex flex-col gap-4 pt-3'>
-          <div onClick={() => window.open("https://www.instagram.com/thammathornp/")} className='relative'>
+          <div onClick={() => window.open("mailto:thampaweewan@gmail.com")} className='relative'>
             <img
               src={jobit}
               alt='project_image'
