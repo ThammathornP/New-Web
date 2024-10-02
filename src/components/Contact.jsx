@@ -8,7 +8,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { ig, linkedin, jobit } from "../assets/index";
+import { envelope, linkedin, resumePreview, resumePDF, jobit } from "../assets/index";
 
 const Contact = () => {
 
@@ -27,17 +27,17 @@ const Contact = () => {
           <h2 className={styles.sectionHeadText}>Get in Touch!</h2>
         </div>
         <div className='flex flex-col gap-4 pt-3'>
-          <div onClick={() => window.open("https://www.instagram.com/thammathornp/")} className='relative'>
+          <div onClick={() => window.open(resumePDF, "_blank")} className='relative cursor-pointer'>
             <img
-              src={jobit}
-              alt='project_image'
+              src={resumePreview}
+              alt='Resume preview'
               className='w-full h-full object-cover rounded-2xl'
             />
 
             <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
               <img
-                src={ig}
-                alt='source code'
+                src={envelope}
+                alt='download resume'
                 className='w-10 h-10 object-contain'
               />
             </div>

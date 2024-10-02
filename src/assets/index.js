@@ -40,6 +40,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import envelope from './envelope.png';
+
+import resumePreview from './resume_preview.png';
+import resumePDF from './tham_resume.pdf';
+
 export {
   linkedin,
   ig,
@@ -78,4 +83,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  envelope,
+  resumePreview,
+  resumePDF,
 };
